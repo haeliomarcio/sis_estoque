@@ -23,7 +23,7 @@ function Usuarios() {
                     {list.map((item, indice) => (
                         <tr>
                             <td>{item.id}</td>
-                            <td>{item.nome}</td>
+                            <td>{item.nome }</td>
                             <td>{item.email}</td>
                             <td>
                                 <Button size="sm" variant="primary">Editar</Button>
