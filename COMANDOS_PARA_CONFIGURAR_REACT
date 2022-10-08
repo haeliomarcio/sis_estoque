@@ -31,3 +31,15 @@ ESTUDAR:
 - USE STATE DO REACT-
 - USE EFFECT
 - STYLED COMPONENTS
+
+
+npm install react-bootstrap
+npm install react-router-dom
+npm install sweetalert2
+npm install styled-components
+
+
+08/10
+
+https://reactrouter.com/en/v6.3.0/getting-started/overview
+
