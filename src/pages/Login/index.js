@@ -1,12 +1,22 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
+import ImageBackground from '../../images/background.webp';
+import Ariel from '../../images/ariel.jpg';
+
+const styles = {
+    backgroundImage: `url(${Ariel})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: '50px 50px',
+    backgroundSize: 'cover',
+    height: '100vh',
+};
 
 function Login() {
     return (
         <div className='tela_login'>
             <Row>
-                <Col xs={12} md={6} className="img-login"></Col>
-                <Col xs={12} md={6} >
+                <Col xs={12} md={6} className="img-login" style={styles}></Col>
+                <Col xs={12} md={6}>
                     <Row>
                         <Col md={{ span: 8, offset: 2 }}>
                             <Form>
