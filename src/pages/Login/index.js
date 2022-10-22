@@ -1,12 +1,10 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
 import ImageBackground from '../../images/background.webp';
-import Ariel from '../../images/ariel.jpg';
+import Ariel from '../../images/background.webp';
 
 const styles = {
     backgroundImage: `url(${Ariel})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: '50px 50px',
     backgroundSize: 'cover',
     height: '100vh',
 };
