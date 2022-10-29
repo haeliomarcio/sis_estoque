@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function FormUsuarios(){
 
@@ -36,6 +37,11 @@ function FormUsuarios(){
             <Container>
                 <Row>
                     <Col md={8}>
+                        <Button variant="warning" size="sm">
+                            <Link to="/usuarios">
+                                Voltar
+                            </Link>
+                        </Button>
                         <h3>Formulário de Usuário</h3>
                         <form onSubmit={salvarDados}>
                             <div className='mt-3'>

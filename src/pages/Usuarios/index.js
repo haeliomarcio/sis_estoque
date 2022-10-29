@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Usuarios() {
     const [list, setList] = useState([
@@ -10,6 +11,11 @@ function Usuarios() {
     // ESTUDAR MÉTODO MAP E FILTER DO JS
     return (
         <>
+            <Button variant="success" size="sm">
+                <Link to="/usuarios/novo">
+                    Novo Usuário
+                </Link>
+            </Button>
             <Table hover striped>
                 <thead>
                     <tr>
