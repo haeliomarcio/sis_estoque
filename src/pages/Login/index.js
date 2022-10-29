@@ -4,7 +4,7 @@ import ImageBackground from '../../images/background.webp';
 import Ariel from '../../images/background.webp';
 
 const styles = {
-    backgroundImage: `url(${Ariel})`,
+    backgroundImage: `url(${ImageBackground})`,
     backgroundSize: 'cover',
     height: '100vh',
 };
@@ -17,7 +17,7 @@ function Login() {
                 <Col xs={12} md={6}>
                     <Row>
                         <Col md={{ span: 8, offset: 2 }}>
-                            <Form>
+                            <Form style={{ marginTop: '120px' }}>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Email</Form.Label>
                                     <Form.Control type="email" placeholder="Enter email" />
